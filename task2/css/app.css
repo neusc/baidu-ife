@@ -6,28 +6,46 @@
 .main-wrapper{
     min-width: 1000px;
 }
+
+.header{
+    height: 60px;
+    background-color: #333333;
+}
+
 .header h1{
 	position: absolute;
 	margin: 25px 0;
 }
-.header img{
+/*.header img{
 	width: 100%;
 	height: 80px;
-}
+}*/
 #nav{
 	position: relative;
 	margin: 0 auto;
+	line-height: 60px;
 }
 
-#nav ul{
+nav .logo{
+	position: absolute;
+	margin: 10px 40px;
+}
+/*#nav ul{
 	position: absolute;
 	list-style: none;
     top: 30px;
 	right: 10px;
 	width: 30%;
-}
+}*/
+
+#nav ul{
+	float: right;
+	list-style: none;
+	/*line-height: 60px;*/
+}  /*新增加的*/
+
 #nav ul a{
-	color: blue; 
+	color: white; 
 	text-decoration: none
 }
 #nav ul a:hover{
@@ -153,3 +171,4 @@ footer{
 	text-align: center; 
 	line-height: 6em
 }
+
