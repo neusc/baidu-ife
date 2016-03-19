@@ -1,0 +1,29 @@
+.wrap{
+	position: absolute;
+	width: 400px;
+	height: 200px;
+	margin: auto;
+	top: 0; 
+	left: 0; 
+	bottom: 0; 
+	right: 0;  
+	overflow: hidden;
+	background-color: #ccc;
+
+}
+.quarter{
+	/*初始状态下两个完整圆完全重叠*/
+	position: absolute;
+	width:100px;
+	height: 100px;
+	border-radius: 50%;
+	background: #fc0;
+}
+.top-quarter{
+	left:-50px;
+	top:-50px;
+} 
+.bottom-quarter{
+	right:-50px;
+	bottom:-50px;
+}
