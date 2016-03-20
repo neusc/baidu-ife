@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main-wrapper{
+	position: relative;
+    overflow: auto;
+}
+
+.header{
+    height: 60px;
+    width: 100%;
+    background-color: #333333;
+}
+
+.header h1{
+	position: absolute;
+	margin: 25px 0;
+}
+#nav{
+	position: relative;
+	margin: 0 auto;
+	line-height: 60px;
+}
+
+nav .logo{
+	position: absolute;
+	margin: 10px 40px;
+}
+
+#nav ul{
+	float: right;
+	list-style: none;
+	/*line-height: 60px;*/
+}  /*新增加的*/
+
+#nav ul a{
+	color: white; 
+	text-decoration: none
+}
+#nav ul a:hover{
+	font-size: 20px;
+}
+
+#nav li{
+	float: left;
+	margin: 0 20px;
+	font-size: 15px;
+}
+
+.content{
+	float: left;
+	top: 60px;
+	/*注意CSS3中calc()方法的使用*/
+	width: -moz-calc(100% - 500px);
+    width: -webkit-calc(100% - 500px);
+    width: calc(100% - 500px);
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #fff;
+}
+.content span{
+	font-size: 15px;
+}
+.content h1{
+	font-size: 30px;
+	margin: 0 0 10px 0;
+}
+.content h2{
+	font-size: 20px;
+	margin: 10px 0;
+	color: #666;
+}
+.content h4{
+	font-size: 15px;
+	margin: 10px 0;
+	color: #888;
+}
+.content p{
+	margin: 15px 0;
+	text-indent: 2em;
+	font-size: 18px;
+
+}
+.content ul{
+	list-style: none;
+	margin: 15px;
+	font-size: 14px;
+}
+.content li{
+	padding: 4px 0;
+
+}
+section{
+	overflow: hidden;
+	margin: 20px auto;
+	padding: 40px 30px 20px;
+	background-color: #ddd;
+	box-shadow: 10px 10px 5px #888;
+}
+.img{
+	float: left;
+	padding: 10px;
+	margin: 10px;
+    border: 1px solid #000;
+    text-align: center;	
+}
+.img img{
+	width: 200px;
+	height:120px;
+}
+.img span{
+	display: block;
+}
+#sec3 ol{
+	margin: 5px 0 15px 35px;
+	font-size: 15px;
+	font-weight: 600;
+}
+#sec3 table{
+	border: 1px;
+	width: 100%;
+    height: 150px;
+    text-align: center;
+    font-size: 12px;
+    color: #444;
+    background-color: #ccc;
+}
+#sec3 th {
+    background-color: #00AAAA;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 4px 5px;
+}
+#sec3 td {
+    background-color: #fff;
+    padding: 4px 5px;
+    font-size: 15px;
+}
+#sec3 table tr.sum td{
+	background-color: #00AAAA;
+}
+.aside{
+	/*position: absolute;*/
+	float: right;
+	width: 450px;
+	top: 60px;
+	right: 20px;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+#sec4 h4{
+	font-size: 20px;
+	font-weight: 900;
+}
+#sec4 span{
+	width: 40%; 
+	display: inline-block; 
+	vertical-align: top; 
+	text-align: right;
+	margin-right: 10px;
+	padding: 8px 0;
+}
+#sec4 .warning{
+	font-size: 15px;
+	margin-left: 40%; 
+	padding-left: 10px;
+	font-weight: 700;
+}
+#sec4 input{
+	padding: 6px;
+}
+#sec4 textarea{
+	height: 50px; 
+	width: 100%; 
+}
+#sec4 button{
+	background: #00AAAA; 
+	line-height: 2em; 
+	border-radius: 5px; 
+	border: 0; 
+	color: #fff; 
+	width: 100%;
+	margin-top: 15px;
+
+}
+footer{
+	position: absolute;
+	width: 100%;
+	color: #FFF; 
+	bottom: 0px;
+	text-align: center; 
+	line-height: 40px;
+	background-color: #333333;
+}
+
+
